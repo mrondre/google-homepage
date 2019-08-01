@@ -1,77 +1,93 @@
 .alignleft {
-    float: left;
+  float: left;
 }
 
 .alignright {
-    float: right
+  float: right;
 }
 
 .centerimage{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 75px;
-  width: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 75px;
+width: auto;
 }
 
 centersearch {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  
+display: flex;
+flex-flow: column wrap;
+align-items: center;
+
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    font-family: 'Oswald' , sans-serif
-    
-  }
+  font-family: 'Oswald' , sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   
+}
+
 li {
-    display: inline-block
-  }
-  
+  display: inline-block;
+}
+
 li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 3px;
-    text-decoration: none;
-  }
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 3px;
+  text-decoration: none;
+  font-size: 12px;
+}
 
 input[type=text] {
-  width: 30%;
-  padding: 12px 20px 12px 40px;
-  margin: auto;
-  box-sizing: border-box;
-  border: 2px solid lightgray;
-  border-radius: 4px;
-  display: block;
-  background-color: white;
-  background-image: url('./images/searchicon.png');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
+width: 30%;
+padding: 12px 20px 12px 40px;
+margin: auto;
+box-sizing: border-box;
+border: 2px solid lightgray;
+border-radius: 4px;
+display: block;
+background-color: white;
+background-image: url('./images/searchicon.png');
+background-position: 10px 10px; 
+background-repeat: no-repeat;
 }
 
 .button {
-  background-color: #f2f2f2;
+background-color: #f2f2f2;
+border: none;
+color: white;
+padding: 10px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 25px 5px 5px 5px;
+cursor: pointer;
+color: #5F6368;
+}
+
+.navbutton {
+  background-color: #4285F4;
   border: none;
   color: white;
-  padding: 10px 32px;
+  padding: 5px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 25px 5px 5px 5px;
+  font-size: 12px;
+  margin: auto;
   cursor: pointer;
-  color: #5F6368;
-}
+  font-weight: bold;
+  
+  }
 
 #wrapper {
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 
 }
